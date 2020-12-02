@@ -2,17 +2,18 @@
 
 
 [[projects]]
-  digest = "1:1c29e45ea5c6fa7e9159bfed0f5b31f10030f536ebc7f87615b93ff5f20c6dfe"
+  digest = "1:85e976715e831c24a0510f0f39b2b8f4704240c7575f004e198f2d1daf7096cf"
   name = "github.com/aws/aws-lambda-go"
   packages = [
     "events",
     "lambda",
+    "lambda/handlertrace",
     "lambda/messages",
     "lambdacontext",
   ]
   pruneopts = ""
-  revision = "928161204cad89472f9e6b5dd49ce16bc91230de"
-  version = "v1.8.1"
+  revision = "f24acb29a08c3a45eb95e6cd4ae56fbfabf4f4a5"
+  version = "v1.20.0"
 
 [solve-meta]
   analyzer-name = "dep"
